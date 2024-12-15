@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nusantara Cuisine - Eksplorasi Kuliner Indonesia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="Logo Nusantara Cuisine">
+            <span>NUSANTARA CUISINE</span>
+        </div>
+        <ul>
+            <li><a href="#home" class="nav-link">HOME</a></li>
+            <li><a href="#explore" class="nav-link">EXPLORE NOW</a></li>
+            <li><a href="#gallery" class="nav-link">GALLERY</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <div class="hero">
+            <div class="hero-text">
+                <h1>Authentic.<br>Traditional.<br>Delicious.</h1>
+                <p>Jelajahi kekayaan cita rasa kuliner Nusantara</p>
+                <a href="#explore" class="explore-button">Explore Now</a>
+            </div>
+        </div>
+    </header>
+    
+
+    <section id="explore">
+        <h2>Kuliner Nusantara</h2>
+        <div class="dishes-grid">
+            <div class="dish-card sumatra" data-dish="rendang">
+                <img src="rendang.jpg" alt="Rendang">
+                <div class="dish-info">
+                    <h3>Rendang</h3>
+                    <p>Sumatera Barat</p>
+                </div>
+            </div>
+            <div class="dish-card jawa" data-dish="soto">
+                <img src="soto.jpg" alt="Soto">
+                <div class="dish-info">
+                    <h3>Soto</h3>
+                    <p>Jawa</p>
+                </div>
+            </div>
+            <div class="dish-card jakarta" data-dish="nasi-goreng">
+                <img src="nasigoreng.jpg" alt="Nasi Goreng">
+                <div class="dish-info">
+                    <h3>Nasi Goreng</h3>
+                    <p>Indonesia</p>
+                </div>
+            </div>
+            <div class="dish-card jawa" data-dish="mie-ayam">
+                <img src="mieayam.jpg" alt="Mie Ayam">
+                <div class="dish-info">
+                    <h3>Mie Ayam</h3>
+                    <p>Jawa</p>
+                </div>
+            </div>
+            <div class="dish-card sunda" data-dish="batagor">
+                <img src="batagor.jpg" alt="Batagor">
+                <div class="dish-info">
+                    <h3>Batagor</h3>
+                    <p>Jawa Barat</p>
+                </div>
+            </div>
+            <div class="dish-card jakarta" data-dish="bubur">
+                <img src="bubur.jpg" alt="Bubur">
+                <div class="dish-info">
+                    <h3>Bubur</h3>
+                    <p>Jakarta</p>
+                </div>
+            </div>
+            <div class="dish-card jawa" data-dish="tongseng">
+                <img src="tongseng.jpg" alt="Tongseng">
+                <div class="dish-info">
+                    <h3>Tongseng</h3>
+                    <p>Jawa Tengah</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery Kuliner</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="rendang.jpg" alt="Rendang">
+                <div class="gallery-caption">Rendang</div>
+            </div>
+            <div class="gallery-item">
+                <img src="soto.jpg" alt="Soto">
+                <div class="gallery-caption">Soto</div>
+            </div>
+            <div class="gallery-item">
+                <img src="nasigoreng.jpg" alt="Nasi Goreng">
+                <div class="gallery-caption">Nasi Goreng</div>
+            </div>
+            <div class="gallery-item">
+                <img src="mieayam.jpg" alt="Mie Ayam">
+                <div class="gallery-caption">Mie Ayam</div>
+            </div>
+            <div class="gallery-item">
+                <img src="batagor.jpg" alt="Batagor">
+                <div class="gallery-caption">Batagor</div>
+            </div>
+            <div class="gallery-item">
+                <img src="bubur.jpg" alt="Bubur">
+                <div class="gallery-caption">Bubur</div>
+            </div>
+            <div class="gallery-item">
+                <img src="tongseng.jpg" alt="Tongseng">
+                <div class="gallery-caption">Tongseng</div>
+            </div>
+        </div>
+    </section>
+
+    <div id="dish-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="dish-details"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
